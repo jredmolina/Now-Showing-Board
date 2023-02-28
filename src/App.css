@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.headerText {
+  color: rgb(0, 0, 0);
+  text-shadow: white;
+}
+
+.headerImage {
+  height: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-banner {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.card {
+  height: 450px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 15px 25px #817c7c33;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-radius: 14px;
+}
